@@ -13,30 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\HeaderFiles">
+      <UniqueIdentifier>{83705220-e98e-47fd-a05d-65ac2603928d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripts">
+      <UniqueIdentifier>{8ef9b972-751b-4088-8a7d-0c2e03f6a215}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Snake_Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Map.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Snake.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Apple.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Scripts</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Apple.h">
+      <Filter>Source Files\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\HeaderFiles</Filter>
+    </ClInclude>
     <ClInclude Include="Map.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\HeaderFiles</Filter>
     </ClInclude>
     <ClInclude Include="Snake.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\HeaderFiles</Filter>
     </ClInclude>
-    <ClInclude Include="Apple.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\HeaderFiles</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

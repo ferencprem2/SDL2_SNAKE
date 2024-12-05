@@ -14,9 +14,12 @@ public:
 	void render(SDL_Renderer* renderer);
 
 	bool isColliding(Apple apple);
+	bool isWallHit();
 
 	int getHeadX();
 	int getHeadY();
+
+	bool isValidDirection(char direction, char prevDirection);
 
 	void grow();
 

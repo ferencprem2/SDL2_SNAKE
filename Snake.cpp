@@ -1,5 +1,6 @@
 #include "Snake.h"
 #include "Map.h"
+#include <unordered_map>
 
 Snake::Snake() {
 	body.push_back({ Map::WINDOW_WIDTH / 2, Map::WINDOW_HEIGHT / 2 });
@@ -7,6 +8,7 @@ Snake::Snake() {
 
 void Snake::move(char direction) {
 	Segment newHead = body.front();
+
 
 	switch (direction)
 	{
@@ -18,6 +20,22 @@ void Snake::move(char direction) {
 
 	body.insert(body.begin(), newHead);
 	body.pop_back();
+
+}
+
+bool Snake::isValidDirection(char direction, char prevDirection) {
+	std::unordered_map<char, char> oppositeDirections = {
+		{'w', 's'},
+		{'s', 'w'},
+		{'a', 'd'},
+		{'d', 'a'}
+	};
+
+	if (direction != oppositeDirections[prevDirection]) {
+		return true;
+	}
+
+	return false;
 }
 
 int Snake::getHeadX() {
@@ -66,6 +84,12 @@ bool Snake::isColliding(Apple apple) {
 	int appleY = apple.getY();
 	int appleSize = Apple::APPLE_SIZE;
 	return snakeX < appleX + appleSize && snakeX + SEGMENT_SIZE > appleX && snakeY < appleY + appleSize && snakeY + SEGMENT_SIZE > appleY;
+}
+
+bool Snake::isWallHit() {
+	int snakeX = this->getHeadX();
+	int snakeY = this->getHeadY();
+	return snakeX > Map::WINDOW_WIDTH || snakeX < 0 || snakeY > Map::WINDOW_HEIGHT || snakeY < 0;
 }
 
 void Snake::render(SDL_Renderer* renderer) {

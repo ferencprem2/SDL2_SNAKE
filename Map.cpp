@@ -31,6 +31,10 @@ bool Map::init() {
     return true;
 }
 
+SDL_Window* Map::getWindow() {
+    return window;
+}
+
 SDL_Renderer* Map::getRenderer() {
     return renderer;
 }

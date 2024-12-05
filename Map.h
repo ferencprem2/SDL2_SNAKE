@@ -15,6 +15,7 @@ public:
 	bool init();
 
 	SDL_Renderer* getRenderer();
+	SDL_Window* getWindow();
 
 	void cleanup();
 
