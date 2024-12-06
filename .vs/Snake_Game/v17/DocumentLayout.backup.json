@@ -1,34 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\",
+  "WorkspaceRootPath": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Snake_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A32B855-FF15-4D67-979C-3DB8947D38AA}|Snake_Game.vcxproj|solutionrelative:Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +58,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T18:59:06.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T07:26:31.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Button.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Button.h",
+              "RelativeDocumentMoniker": "Button.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Button.h",
+              "RelativeToolTip": "Button.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T08:27:41.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.h",
+              "RelativeDocumentMoniker": "Menu.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Menu.h",
+              "RelativeToolTip": "Menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T07:24:15.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T07:17:48.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T07:11:09.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Map.h",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.h",
               "RelativeDocumentMoniker": "Map.h",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.h",
               "RelativeToolTip": "Map.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-04T21:17:20.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Snake.h",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.h",
               "RelativeDocumentMoniker": "Snake.h",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.h",
               "RelativeToolTip": "Snake.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T21:24:38.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T21:24:38.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Apple.h",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.h",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.h",
               "RelativeDocumentMoniker": "Apple.h",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.h",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.h",
               "RelativeToolTip": "Apple.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T23:27:25.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T23:27:25.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Apple.cpp",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.cpp",
-              "RelativeDocumentMoniker": "Apple.cpp",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Apple.cpp",
-              "RelativeToolTip": "Apple.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T23:36:38.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Snake.cpp",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.cpp",
               "RelativeDocumentMoniker": "Snake.cpp",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Snake.cpp",
               "RelativeToolTip": "Snake.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-04T21:26:59.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Map.cpp",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.cpp",
-              "RelativeDocumentMoniker": "Map.cpp",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Map.cpp",
-              "RelativeToolTip": "Map.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Apple.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.cpp",
+              "RelativeDocumentMoniker": "Apple.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Apple.cpp",
+              "RelativeToolTip": "Apple.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T21:20:36.624Z",
+              "WhenOpened": "2024-12-04T23:36:38.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Snake_Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake_Game.cpp",
-              "RelativeDocumentMoniker": "Snake_Game.cpp",
-              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL_Snake\\Snake_Game\\Snake_Game.cpp",
-              "RelativeToolTip": "Snake_Game.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.cpp",
+              "RelativeDocumentMoniker": "Map.cpp",
+              "ToolTip": "C:\\Users\\Pr\u00E9m Ferenc\\Documents\\GitHub\\SDL2_SNAKE\\Map.cpp",
+              "RelativeToolTip": "Map.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T18:59:06.732Z",
+              "WhenOpened": "2024-12-04T21:20:36.624Z",
               "EditorCaption": ""
             }
           ]

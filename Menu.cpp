@@ -6,9 +6,17 @@
 #include "Map.h"
 
 Menu::Menu(){
-	font = TTF_OpenFont("YujiMai-Regular.ttf", 24);
+	//FIXME: only use this path while starting the game from VS, when running exe -> "main.tt"
+	const char fontFile[] =	"./x64/Debug/main.ttf";
+
+	if (TTF_Init() != 0) {
+		std::cerr << "Failed to init TTF! Error: " << TTF_GetError() << std::endl;
+	}
+
+	font = TTF_OpenFont(fontFile, 24);
+	
 	if (!font) {
-		std::cerr << "Failed to lead font: " << TTF_GetError() << std::endl;
+		std::cerr << "Failed to load font: " << TTF_GetError() << std::endl;
 	}
 }
 
@@ -36,20 +44,40 @@ void Menu::renderGameOverScreen(SDL_Renderer* renderer, TTF_Font* font, bool gam
 }
 
 void Menu::renderPauseMenu(SDL_Renderer* renderer, TTF_Font* fonts) {
+	const int BTN_X_POS = WINDOW_WIDTH / 2 - BUTTON_WIDTH / 2;
 	SDL_SetRenderDrawColor(renderer, 102, 255, 178, 255);
-	SDL_Rect resumeButton = { WINDOW_WIDTH / 2 - BUTTON_WIDTH / 2, WINDOW_HEIGHT / 2 + BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT};
-	SDL_Rect quitButton = { WINDOW_WIDTH / 2 - BUTTON_WIDTH / 2, WINDOW_HEIGHT / 2 - BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT};
+	SDL_Rect resumeButton = { BTN_X_POS, WINDOW_HEIGHT / 2 + BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT};
+	SDL_Rect quitButton = { BTN_X_POS, WINDOW_HEIGHT / 2 - BUTTON_HEIGHT, BUTTON_WIDTH, BUTTON_HEIGHT};
 	SDL_RenderFillRect(renderer, &resumeButton);
 	SDL_RenderFillRect(renderer, &quitButton);
+
+	SDL_Color color = { 0, 0, 0, 255 };
+	renderText(renderer, font, "Resume", BTN_X_POS, WINDOW_HEIGHT / 2 + BUTTON_HEIGHT, color);
+	renderText(renderer, font, "Quit", BTN_X_POS, WINDOW_HEIGHT / 2 - BUTTON_HEIGHT, color);
 
 	SDL_RenderPresent(renderer);
 }
 
-void renderText(SDL_Renderer* renderer, TTF_Font* font, const std::string& text, int x, int y, SDL_Color color) {
+void Menu::renderText(SDL_Renderer* renderer, TTF_Font* font, const std::string& text, int x, int y, SDL_Color color) {
 	SDL_Surface* textSurface = TTF_RenderText_Blended(font, text.c_str(), color);
 	if (!textSurface) {
-		std::cerr << "Failed to create text surface"
+		std::cerr << "Failed to create text surface! Error: " << SDL_GetError() << "||" << TTF_GetError() << std::endl;
 	}
+
+	SDL_Texture* textTexture = SDL_CreateTextureFromSurface(renderer, textSurface);
+	if (!textTexture) {
+		std::cerr << "Failed to create text texture! Error: " << SDL_GetError() << "||" << TTF_GetError() << std::endl;
+		SDL_FreeSurface(textSurface);
+		return;
+	}
+
+	SDL_Rect destRect = { x, y, textSurface->w, textSurface->h };
+
+	SDL_RenderCopy(renderer, textTexture, nullptr ,&destRect);
+
+	SDL_DestroyTexture(textTexture);
+	SDL_FreeSurface(textSurface);
+
 }
 
 void Menu::handleMenuClickEvent(SDL_Event event, SDL_Window* window) {

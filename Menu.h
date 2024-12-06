@@ -1,11 +1,13 @@
 #ifndef MENU_H
 #define MENU_H
 #include <SDL_ttf.h>
+#include <string>
 
 
 class Menu
 {
 public:
+	TTF_Font* font;
 	
 	static const int BUTTON_WIDTH = 120;
 	static const int BUTTON_HEIGHT = 50;
@@ -18,6 +20,5 @@ public:
 	Menu();
 	~Menu();
 private: 
-	TTF_Font* font;
 };
 #endif // !MENU_H

@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
 				case SDLK_s: direction = 's'; break;
 				case SDLK_a: direction = 'a'; break;
 				case SDLK_d: direction = 'd'; break;
-				case SDLK_ESCAPE: paused = !paused; menu.renderPauseMenu(renderer); break;
+				case SDLK_ESCAPE: paused = !paused; menu.renderPauseMenu(renderer, menu.font); break;
 				}
 			}
 
